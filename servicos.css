@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff9ed;
+    overflow-x: hidden; /* Evita rolagem horizontal */
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #ffc4c4;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Correção do 'espaço-entre' */
+    padding-left: 10px; /* Ajuste para não ter muito padding nas laterais */
+    padding-right: 10px; /* Ajuste para não ter muito padding nas laterais */
+    top: 0;
+    padding-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box; /* Inclui padding dentro da largura total */
+}
+
+
+.imagem-pequena {
+    width: 80px; /* Diminui o tamanho das imagens */
+    height: auto;
+}
+
+
+  .sem-sublinhado {
+    text-decoration: none !important;
+    color: rgb(75, 11, 11);
+}
+
+
+  nav {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+nav a {
+    color: #000;
+    font-weight: bold;
+    margin-right: 15px; /* Espaçamento entre os links */
+}
+
+#title {
+    text-align: center;
+    padding: 20px;
+}
+
+#festas {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.toldo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.toldo img {
+    width: 100%;
+    height: auto;
+}
+div.Primeira.logo {
+    position: fixed; /* Fixa o elemento na tela */
+    top: 16%; /* Mantém o topo da logo a 20% da altura da tela */
+    left: 13%; /* Mantém a logo a 13% da largura da tela */
+    transform: translate(-50%, -50%); /* Centraliza a logo em relação à posição definida */
+    z-index: 10; /* Garante que a logo fique acima de outros elementos */
+}
+
+div.base.mac_cake {
+    top: 15%;
+    left: 13%;
+    transform: translate(130%, 70%);
+    z-index: 10;
+}
+
+.Segunda {
+    transform: translate(125%, 50%); 
+}
+
+
+div.imagem2 {
+    transform: translate( 45%, -100%)
+}
+div.imagem1 {
+    transform: translate( 28%, 0%)
+}
+div.imagem3 {
+    transform: translate( 60%, -200%)
+}
+
